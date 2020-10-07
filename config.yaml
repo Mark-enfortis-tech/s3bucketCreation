@@ -6,6 +6,5 @@ Description: >-
 Resources:
     MyS3Bucket:
         Type: AWS::S3::Bucket
-Output:
-    Value: !Ref S3Bucket
+
 
