@@ -1,0 +1,11 @@
+# configuration file for creating an AWS s3 bucket via cloudformation
+AWSTemplateFormatVersion : '2010-09-09'
+Description: >-
+    AWS cloudformation template for creating an S3 Bucket
+
+Resources:
+    MyS3Bucket:
+        Type: AWS::S3::Bucket
+Output:
+    Value: !Ref S3Bucket
+    Description: S3 Bucket Name
