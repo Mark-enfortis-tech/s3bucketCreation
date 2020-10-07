@@ -8,4 +8,4 @@ Resources:
         Type: AWS::S3::Bucket
 Output:
     Value: !Ref S3Bucket
-    Description: S3 Bucket Name
+
